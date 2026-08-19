@@ -2,7 +2,7 @@
 
 **Date:** 2026-08-19
 **Repository:** RevoMemo Lexical Research
-**Result:** **PASS WITH WARNINGS**
+**Result:** **PASS**
 
 ## Scope
 
@@ -21,9 +21,12 @@ The complete working tree was scanned, this report was added, and every reachabl
 
 One provenance sentence states that raw records are excluded. This is a boundary statement, not embedded lexical material. Similar public-boundary language is intentionally present to describe what this repository does not publish.
 
-## Warning
+## Gitleaks verification
 
-Gitleaks was checked for but is not installed in this environment, so a gitleaks scan could not be run. The manual pattern, path, Git-history, JSON, and object-integrity checks passed. Run gitleaks or an equivalent credential scanner again immediately before any future public push.
+- Reachable Git history: gitleaks git . scanned 1 commit, found no leaks, and exited with code 0.
+- Current repository contents: gitleaks dir . found no leaks and exited with code 0.
+
+The earlier manual pattern, path, JSON, Git-history, and object-integrity checks remain part of this verification.
 
 ## Release conclusion
 
