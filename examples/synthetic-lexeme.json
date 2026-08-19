@@ -1,0 +1,11 @@
+{
+  "example_status": "synthetic",
+  "lexeme_id": "synthetic-lexeme-001",
+  "concept_id": "synthetic-concept-001",
+  "language": "x-synthetic",
+  "display_form": "luma",
+  "lemma": "luma",
+  "part_of_speech": "verb",
+  "local_gloss": "use an item temporarily",
+  "evidence_state": "illustrative_only"
+}

@@ -1,0 +1,26 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated or potentially sensitive outputs
+*.log
+*.csv
+*.tsv
+output/
+artifacts/
+reports/
+
+# Common dependency and build outputs
+node_modules/
+dist/
+build/

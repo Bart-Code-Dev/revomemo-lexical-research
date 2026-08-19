@@ -1,0 +1,15 @@
+{
+  "example_status": "synthetic",
+  "relation_id": "synthetic-relation-001",
+  "source_lexeme_id": "synthetic-source-001",
+  "target_lexeme_id": "synthetic-lexeme-001",
+  "relation_type": "contextual",
+  "required_constraints": [
+    "temporary-use context",
+    "return expectation"
+  ],
+  "avoid_conditions": [
+    "permanent ownership context"
+  ],
+  "evidence_state": "illustrative_only"
+}

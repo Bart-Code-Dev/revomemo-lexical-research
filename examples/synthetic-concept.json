@@ -1,0 +1,11 @@
+{
+  "example_status": "synthetic",
+  "concept_id": "synthetic-concept-001",
+  "concept_label": "temporary possession transfer",
+  "sense_gloss": "An agent receives an item for limited use and is expected to return it.",
+  "distinguishes_from": [
+    "permanent acquisition",
+    "giving an item away"
+  ],
+  "evidence_state": "illustrative_only"
+}
