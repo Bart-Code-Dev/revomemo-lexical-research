@@ -16,7 +16,7 @@ Does typed, sense-first lexical grounding reduce critical educational errors in 
 
 The approach separates meaning from language-specific realization and makes relationships explicit.
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
     C[Concept] --> A[English Anchor]
     A --> L[Language-specific Lexeme]
@@ -25,7 +25,7 @@ flowchart TD
     R --> G[Generation Context]
     G --> M[LLM]
     M --> V[Validation]
-\`\`\`
+```
 
 See [lexical architecture](docs/lexical-architecture.md).
 

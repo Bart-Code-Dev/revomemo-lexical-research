@@ -8,9 +8,17 @@ Before the confirmatory benchmark begins, the study will preregister:
 - the four risk categories;
 - condition definitions and information budgets;
 - generation settings and independent-generation rule;
-- evaluator instructions, adjudication, and exclusion policy;
+- deterministic validator rules and condition-blinded model-grading instructions;
+- repeated-grading procedure, including reversed grading order where applicable;
+- grader-stability, agreement, disagreement-flagging, and exclusion policy;
 - primary endpoint, aggregation, comparisons, and uncertainty reporting;
 - the corrupted-grounding stress-test procedure.
+
+## Benchmark evaluation
+
+The benchmark evaluation plan combines deterministic validators for rule-checkable properties with condition-blinded model grading for semantic and educational criteria. Repeated grading estimates stability, and agreement across independent grading runs is measured. Substantial disagreement is handled under preregistered flagging and exclusion rules rather than by automatic acceptance.
+
+The study does not promise or assume availability of independent bilingual human reviewers for every benchmark output. Automated and model-based grading are evidence for evaluation, not linguistic ground truth.
 
 ## Versioning
 

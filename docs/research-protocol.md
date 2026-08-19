@@ -18,10 +18,10 @@ The confirmatory case set will contain 240 concept-direction cases:
 
 Cases will be allocated across four prespecified risk categories:
 
-1. lexical polysemy and sense selection;
-2. non-equivalent translation choices;
-3. construction-sensitive realization;
-4. explicit lexical or grammatical constraints.
+1. Polysemy and false friends.
+2. Construction, part-of-speech, valency, or case/preposition-government changes.
+3. Contextual, phrase-based, or one-to-many equivalents.
+4. Low-risk exact equivalents.
 
 ## Conditions
 
@@ -56,7 +56,11 @@ A separate planned 60-case stress test will introduce controlled defects into ot
 
 ## Evaluation safeguards
 
-- Evaluators will assess outputs against the prespecified intended meaning and context.
-- Automated grading will not be treated as linguistic ground truth.
-- Ambiguous ratings will be retained and handled under a preregistered adjudication policy.
+- Deterministic validators will evaluate rule-checkable properties.
+- Condition-blinded model-based graders will evaluate semantic and educational criteria against the prespecified intended meaning and context.
+- Automated and model-based grading will not be treated as linguistic ground truth.
+- Repeated judgments will be used to estimate grader stability; grading order will be reversed in repeated evaluations where applicable.
+- Agreement across independent grading runs will be measured.
+- Substantial grader disagreement will flag a case under the preregistered policy rather than automatically accepting it.
+- The study does not assume that independent bilingual human reviewers will be available for every output in the full benchmark.
 - Outputs, evaluation forms, and analysis code will be versioned before primary analysis.
