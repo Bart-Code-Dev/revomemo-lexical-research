@@ -7,7 +7,7 @@ Before confirmatory generation, the study will preregister:
 - the case-selection policy and fixed case set;
 - the four risk categories;
 - condition definitions and information budgets;
-- generation settings and independent-generation rule;
+- generation settings, token limits, output schemas, seeds where available, and independent-generation rule;
 - deterministic validator rules and condition-blinded model-grading instructions;
 - repeated-grading procedure, including reversed grading order where applicable;
 - grader-stability, agreement, disagreement-flagging, and exclusion policy;

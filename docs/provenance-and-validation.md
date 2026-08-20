@@ -32,4 +32,6 @@ Keeping these layers separate prevents a well-formed record from being confused 
 
 ## Abstention and disagreement
 
-Incomplete source context, multiple plausible senses, conflicting assessments, unsupported confidence, or an unresolved distinction should produce abstention or a review queue rather than silent acceptance. Valid outcomes include `NO_MATCH`, `MULTIPLE_PLAUSIBLE_SENSES`, `INSUFFICIENT_SOURCE_CONTEXT`, `CONFLICTING_EVIDENCE`, and `NONE_OF_THE_ABOVE`. Automated grading can assist analysis but is not linguistic ground truth.
+Incomplete source context, multiple plausible senses, conflicting assessments, unsupported confidence, or an unresolved distinction should produce abstention or a review queue rather than silent acceptance. Valid outcomes include `NO_MATCH`, `MULTIPLE_PLAUSIBLE_SENSES`, `INSUFFICIENT_SOURCE_CONTEXT`, `CONFLICTING_EVIDENCE`, and `NONE_OF_THE_ABOVE`.
+
+These are primarily lexical-grounding and mapping-review outcomes. They are not automatically additional classes in the five-category primary benchmark endpoint. Automated grading can assist analysis but is not linguistic ground truth.

@@ -14,6 +14,15 @@ OEWN represents words, senses, synsets, definitions, and lexical relations. Its 
 
 The preflight used **Open English WordNet 2025 core**: the common-noun, verb, adjective, and adverb edition, rather than the 2025+ edition that additionally contains curated proper nouns. Official sources describe the 2025 release and downloads at [en-word.net/downloads](https://en-word.net/downloads), the resource structure at [globalwordnet/english-wordnet](https://github.com/globalwordnet/english-wordnet), and the license as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
+| Field | Pinned preflight identity |
+| --- | --- |
+| Resource | Open English WordNet |
+| Edition | 2025 core |
+| Release/tag | `2025-edition` |
+| Canonical interchange | WN-LMF |
+| Local query representation | JSON |
+| JSON SHA-256 | `7d749f6e2c39e6970e4997839dcf6e42fd281f3c2fae0171d2192bae8cfa4b51` |
+
 For each frozen research use, the public methodology requires preservation of the resource name, release/version, official source, downloaded artifact identity or hash, license, and normalization procedure. This repository does not reproduce OEWN data; aggregate statistics and synthetic examples are used instead.
 
 ## Candidate enumeration and contextual mapping

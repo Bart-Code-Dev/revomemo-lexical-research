@@ -54,7 +54,11 @@ The primary endpoint is the presence of at least one critical educational error 
 - ambiguous expected answer;
 - explicit constraint violation.
 
-The primary analysis will use a preregistered case-level aggregation rule. Generation identity, prompts, evaluators, adjudication rules, exclusions, and uncertainty estimates will be fixed before execution.
+The primary analysis will use a preregistered case-level aggregation rule. Primary condition comparisons will report paired absolute risk differences with confidence intervals, with stratified reporting by language direction and risk category. Generation identity, prompts, evaluators, adjudication rules, exclusions, and uncertainty estimates will be fixed before execution.
+
+## Secondary endpoints
+
+Secondary endpoints will include grammatical naturalness, exact-sense adherence, answerability, abstention, cross-language differences, review rate, and API cost per approved output. Definitions, approval rules, measurement procedures, and analysis policy for these endpoints will be frozen during preregistration. They supplement rather than replace the primary critical-error endpoint.
 
 ## Secondary component-ablation analysis
 
