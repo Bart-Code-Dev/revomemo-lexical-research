@@ -14,7 +14,9 @@ The planned primary endpoint records whether an output contains at least one of 
 
 ## Diagnostic categories
 
-The methodology may also record non-primary diagnostic categories: missing provenance, malformed structure, unresolved register, unsupported certainty, incomplete evidence, or validator disagreement. These describe why output may need repair or review; they are not automatically critical educational errors.
+The methodology may also record non-primary diagnostic categories: missing provenance, malformed structure, unresolved register, unsupported certainty, incomplete evidence, validator disagreement, unsupported sense selection, external-resource mismatch, insufficient sense evidence, stale-context evidence, and candidate-space ambiguity.
+
+These categories describe why output or evidence may need repair, abstention, or review. They are not automatically critical educational errors and are not added to the primary endpoint unless a future preregistration explicitly defines them there.
 
 ## Use in evaluation
 

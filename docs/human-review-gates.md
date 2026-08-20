@@ -10,7 +10,9 @@ The human review gates described here apply to lexical evidence and the dictiona
 
 ## Gate conditions
 
-A candidate should be held for review when it has an unresolved sense distinction, competing target realizations, a possible construction shift, an unsupported frequency or register claim, conflicting validators, or a failed required check.
+A candidate should be held for review when it has an unresolved sense distinction, competing target realizations, a possible construction shift, an unsupported frequency or register claim, conflicting validators, failed required checks, incomplete source context, or stale contextual evidence.
+
+External lexical resources and model agreement do not bypass these gates. A single OEWN candidate is not automatically promoted to verified evidence.
 
 ## Decision states
 
@@ -19,8 +21,6 @@ A reviewer can accept, request repair, reject, defer, or mark a case as needing 
 ## Separation of roles
 
 Generation, validation, and adjudication should be independently reviewable. This does not require perfect independence in every setting, but prevents a single model output from serving as proposal, proof, and approval.
-
-Model proposals are not automatically promoted to verified lexical truth.
 
 ## Auditability
 

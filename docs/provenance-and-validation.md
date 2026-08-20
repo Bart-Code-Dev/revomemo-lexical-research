@@ -2,11 +2,25 @@
 
 ## Proposals are not truth
 
-Language models may propose useful candidate senses, lexemes, examples, constructions, and relations. A proposal remains a proposal until it satisfies the applicable checks and review policy. Fluency, confidence language, or agreement between generated outputs is not proof of correctness.
+Language models may propose candidate senses, lexemes, examples, constructions, relations, repairs, or grades. A proposal remains a proposal until it satisfies the applicable checks and review policy. Fluency, confidence language, or agreement between generated outputs is not proof of correctness.
 
-## Provenance
+## Evidence roles
 
-For each research workflow, provenance should record input version, prompt or procedure version, generation identity, validation result, reviewer decision when used, and resulting evidence state. This lets a later reader distinguish an observation, a model proposal, a deterministic check, and a human decision.
+The methodology distinguishes five roles:
+
+- **Lexical-resource evidence** supplies versioned external candidate inventory information.
+- **Model proposal** assesses contextual compatibility or proposes a lexical or generated realization.
+- **Contextual mapping evidence** links the available source context and candidate inventory to a possible reviewed decision.
+- **Deterministic validation** checks observable structural and procedural requirements.
+- **Human/review decision** resolves evidence that remains ambiguous, conflicting, incomplete, or high-risk.
+
+No role is silently promoted into another. In particular, external-resource presence and model agreement do not establish intended meaning.
+
+## Context identity and freshness
+
+Each semantic assessment is associated conceptually with three distinct identities: the semantic context it saw, its provenance, and the procedure or request that produced it. This permits later assessment of applicability when the current effective anchor context changes.
+
+Historical evidence is retained rather than deleted. Its applicability may be **current**, **stale**, or **unknown**. The same response evaluated against changed context can therefore become stale evidence. Evidence from different context versions must not be reported as model disagreement over the same evidence.
 
 ## Two kinds of validation
 
@@ -18,4 +32,4 @@ Keeping these layers separate prevents a well-formed record from being confused 
 
 ## Abstention and disagreement
 
-Incomplete evidence, conflicting assessments, unsupported confidence, or an unresolved distinction should produce abstention or a review queue rather than silent acceptance. Human decisions are explicit gates. Automated grading can assist analysis but is not linguistic ground truth.
+Incomplete source context, multiple plausible senses, conflicting assessments, unsupported confidence, or an unresolved distinction should produce abstention or a review queue rather than silent acceptance. Valid outcomes include `NO_MATCH`, `MULTIPLE_PLAUSIBLE_SENSES`, `INSUFFICIENT_SOURCE_CONTEXT`, `CONFLICTING_EVIDENCE`, and `NONE_OF_THE_ABOVE`. Automated grading can assist analysis but is not linguistic ground truth.
